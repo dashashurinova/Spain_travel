@@ -8,7 +8,11 @@ ul {    margin-block-start: 0;
 background-color: rgb(255, 253, 185);
 /* width: 1400px; */
 height: 300px;
+margin: 0 auto;
 }
+
+
+
 
 /* .page {
     /* max-width: 1400px; 

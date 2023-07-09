@@ -20,6 +20,16 @@
 @import url(../Block/header/__lang/header__lang.css);
 @import url(../Block/header/__logo/header__logo.css);
 
+@import url(../Block/header/newheader.css);
+
+@import url(../Block/places/__title/places__title.css);
+@import url(../Block/places/__text/places__text.css);
+@import url(../Block/places//__flex-row/places__flex-row.css);
+@import url(../Block/places/__place/places__place.css);
+@import url(../Block/places/__website/places__website.css);
+@import url(../Block/places/__paragraph/places__paragraph.css);
+@import url(../Block/places/__place/__place.css);
+
 
 
 

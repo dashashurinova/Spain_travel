@@ -1,0 +1,24 @@
+$widthContainer:176px;
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+    .header__logo {
+        background-image: url(../../../../img/sagrada.jpg);
+        width: 100px;
+        height: 100px;
+        background-size: 100px 100px;
+    }
+
+
+}
+
+
+
+.header__lang {
+    color: #922e2e;
+}

@@ -1,0 +1,16 @@
+.places__website, .places__website a  {
+    color: #922e2e;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: flex-end;
+ 
+}
+
+@media screen and (min-width:767px) and (max-width:1024px) {
+    .places__website{
+        margin-top: 15px;
+        margin-bottom: 15px;
+     
+    }
+}

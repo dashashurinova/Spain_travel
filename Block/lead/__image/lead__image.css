@@ -1,0 +1,12 @@
+.lead_image {
+    width: 100%;
+}
+
+@media screen and (min-width: 767px) and (max-width:1024px) {
+    .lead_image {
+    width: 80%;
+    /* margin: 0 auto; */
+    display: flex;
+    margin: 0 auto 0 auto;
+}
+}

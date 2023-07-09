@@ -31,6 +31,11 @@
 @import url(../Block/places/__place/__place.css);
 
 
+@import url(../Block/photo-grid/photo-grid.css);
+@import url(../Block/photo-grid/__item/photo-grid__item.css);
+@import url(../Block/photo-grid/__item/photo-grid__item_position.css);
+
+
 
 
 

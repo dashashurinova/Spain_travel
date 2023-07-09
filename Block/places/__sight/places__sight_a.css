@@ -1,0 +1,20 @@
+.places__sight_a a {
+    font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+text-decoration-line: underline;
+}
+
+.places__sight_a p {
+    font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 170%;
+letter-spacing: 2px;
+}
+
+.places__sight_a {
+    margin-top: 25px;
+}

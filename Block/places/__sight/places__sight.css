@@ -1,0 +1,10 @@
+.places__sight {
+display: grid;
+grid-template-columns: 460px auto;
+grid-template-rows: 76px auto;
+width: 984px;
+color: #922e2e;
+margin: 80px auto 0px auto;
+gap: 40px;
+
+}

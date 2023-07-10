@@ -1,0 +1,26 @@
+.last img {
+    width: 1184px;
+    margin: 92px auto 92px auto;
+    display: block;
+}
+.last h2 {
+margin: -550px auto 0px auto;
+width: 560px;
+color: #f9ecec;
+text-align: center;
+font-family: Inter;
+font-size: 72px;
+font-weight: 900;
+line-height: 76px;
+}
+.last p {
+width: 360px;
+margin: 32px auto 92px auto;
+color: #f9ecec;
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px;
+}

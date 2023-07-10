@@ -14,7 +14,7 @@
 
 @import url(../Block/page/page.css);
 
-@import url(../Block/body/body);
+@import url(../Block/body/body.css);
 
 @import url(../Block/header/header.css);
 @import url(../Block/header/__lang/header__lang.css);
@@ -41,6 +41,10 @@
 @import url(../Block/places/__sight/places__sight_picture.css);
 @import url(../Block/places/__sight/places__sight_text.css);
 @import url(../Block/places/__sight/places__sight_title.css);
+
+@import url(../Block/last/last.css);
+
+@import url(../Block/footer/footer.css);
 
 
 

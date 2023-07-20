@@ -13,16 +13,18 @@
 <body class="body">
     <div class="page">
         <header class="header">
-            <div class="header__logo"></div>
+            <div ><img class="header__logo" src="./img/sagrada.jpg" alt=""></div>
             <span class="header__lang">RU EN</span>
-    </div>
-    </header>
+ <button class="header__button">Log in</button>
+        </header>
+   
+</div>
 
     <main>
         <section class="lead">
             <h1 class="lead__title">Travelling through Spain</h1>
             <p class="lead__subtitle">Taste Colour Glory Surrealism is all you need</p>
-            <img src="../img/barsa evening.jpg" width="984px" class="lead_image" alt="barsa evening">
+            <img src="./img/barsa evening.jpg" width="984px" class="lead_image" alt="barsa evening">
             <p class="lead__caption">Your ticket to amotions</p>
         </section>
         <section class="intro">
@@ -184,6 +186,15 @@
             <p>Inspired by an incredible beauty of the country.</p>
         </section>
 
+<section class="entrance">
+    <div class="entrance__info">
+        <h2 class="entrance__title">Enter site</h2>
+        <p><input class="entrance__log" type="text" placeholder="Login"></p>
+        <p><input class="entrance__log" type="text" placeholder="Password"></p>
+        <button class="entrance__button">Enter</button>
+    </div>
+</section>
+
         <footer class="footer">
             <ul>
                 <li>Maps</li>
@@ -192,25 +203,30 @@
                 <li>Calendar</li>
                 <li>Travelling</li>
             </ul>
-            <div> 2023 Shurinova Darya</div>
+            <div>© 2023 Shurinova Darya</div>
         </footer>
 
-
-
-
-
-
-
-
-
-
     </main>
+
 
 
     <footer>
         <div></div>
     </footer>
     </div>
+
+
+    <script>
+        let buttonHeader = document.querySelector('.header__button');
+        let buttonPopUp = document.querySelector('.entrance__button');
+        let blockEntrance = document.querySelector('.entrance')
+        buttonHeader.addEventListener('click',function(e){
+            blockEntrance.classList.toggle('visible')
+        });
+        buttonPopUp.addEventListener('click',function(e){
+            blockEntrance.classList.toggle('visible')
+        });
+    </script>
 </body>
 
 </html>

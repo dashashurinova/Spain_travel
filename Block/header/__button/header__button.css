@@ -1,0 +1,25 @@
+.header__button {
+    color: #922e2e;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #ebd564;
+    border: 2px solid rgb(242, 156, 63);
+    font-size: 30px;
+}
+
+.entrance {
+    width: 560px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    text-align: center;
+    background: #ffffff;
+    border: 2px solid blue;
+    display: none;
+}
+
+.visible {
+    display: block;
+}

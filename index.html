@@ -189,8 +189,11 @@
 <section class="entrance">
     <div class="entrance__info">
         <h2 class="entrance__title">Enter site</h2>
-        <p><input class="entrance__log" type="text" placeholder="Login"></p>
-        <p><input class="entrance__log" type="text" placeholder="Password"></p>
+        <label class="entrance__label"  for="login">Login:</label>
+        <p><input class="entrance__log" name="login" id="login" type="text" placeholder="Login"></p>
+        <label class="entrance__label"  for="password">Password:</label>
+        <p><input class="entrance__log" name="password" id=login type="text" placeholder="Password"></p>
+        <div id="error" style="color: brown;"></div>
         <button class="entrance__button">Enter</button>
     </div>
 </section>
@@ -215,18 +218,23 @@
     </footer>
     </div>
 
-
+<script src="./index.js"></script>
     <script>
         let buttonHeader = document.querySelector('.header__button');
         let buttonPopUp = document.querySelector('.entrance__button');
         let blockEntrance = document.querySelector('.entrance')
+
         buttonHeader.addEventListener('click',function(e){
             blockEntrance.classList.toggle('visible')
         });
         buttonPopUp.addEventListener('click',function(e){
             blockEntrance.classList.toggle('visible')
         });
+        buttonPopUp.addEventListener('click', checkForm() 
+            // blockEntrance.classList.toggle('visible')
+        );
     </script>
+    
 </body>
 
 </html>

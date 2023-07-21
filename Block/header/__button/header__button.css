@@ -1,25 +1,63 @@
 .header__button {
     color: #922e2e;
-    width: 100px;
-    height: 50px;
+    width: 150px;
+    height: 70px;
     border-radius: 20px;
     background-color: #ebd564;
     border: 2px solid rgb(242, 156, 63);
     font-size: 30px;
+    margin-top: 30px;
+    margin-right: 30px;
+
 }
 
 .entrance {
-    width: 560px;
-    height: 400px;
+    width: 760px;
+    height: 450px;
     position: absolute;
+    left: 50%;
     top: 50%;
-    left: 40%;
+    transform: translate(-50%, -50%);
     text-align: center;
-    background: #ffffff;
-    border: 2px solid blue;
-    display: none;
+    background: #efed8f;
+    border: 3px solid rgb(191, 122, 19);
+    /* display: none; */
+}
+
+.entrance__button {
+    color: #922e2e;
+    width: 150px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: #ebd564;
+    border: 3px solid rgb(242, 156, 63);
+    font-size: 30px;
+   margin-top: 20px; 
+
+}
+
+.entrance__log {
+    border: 2px solid rgb(242, 156, 63);
+    font-size: 30px;
 }
 
 .visible {
     display: block;
+}
+
+.entrance__title {
+    font-size: 50px;
+    color: #922e2e;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.entrance__label {
+    font-size: 35px;
+    color: #922e2e;
+}
+
+.entrance__log {
+    margin-bottom: 20px;
+    margin-top: 10px;
 }

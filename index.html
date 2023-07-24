@@ -194,7 +194,7 @@
         <label class="entrance__label"  for="password">Password:</label>
         <p><input class="entrance__log" name="password" id=login type="text" placeholder="Password"></p>
         <div id="error" style="color: brown;"></div>
-        <button class="entrance__button">Enter</button>
+        <button class="entrance__button" onclick="checkForm()">Enter</button>
     </div>
 </section>
 
@@ -230,9 +230,9 @@
         buttonPopUp.addEventListener('click',function(e){
             blockEntrance.classList.toggle('visible')
         });
-        buttonPopUp.addEventListener('click', checkForm() 
-            // blockEntrance.classList.toggle('visible')
-        );
+        // buttonPopUp.addEventListener('click', checkForm() 
+            
+        // );
     </script>
     
 </body>

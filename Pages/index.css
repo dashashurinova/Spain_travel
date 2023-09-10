@@ -7,7 +7,7 @@
 @import url(../style.css);
 
 @import url(../Block/intro/intro.css);
-@import url(../Block/intro/List-item/introList-item.css);
+@import url(../Block/intro/ListItem/introListItem.css);
 @import url(../Block/intro/List/introList.css);
 @import url(../Block/intro/Text/introText.css);
 @import url(../Block/intro/Title/introTitle.css);
@@ -31,9 +31,9 @@
 @import url(../Block/places/__place/__place.css); */
 
 
-@import url(../Block/photo-grid/photo-grid.css);
-@import url(../Block/photo-grid/Item/photo-gridItem.css);
-@import url(../Block/photo-grid/Item/photo-gridItem_position.css);
+@import url(../Block/photoGrid/photoGrid.css);
+@import url(../Block/photoGrid/Item/photoGridItem.css);
+@import url(../Block/photoGrid/Item/photoGridItemPosition.css);
 
 
 @import url(../Block/places/Sight/placesSight.css);

@@ -32,21 +32,21 @@
 
 
 @import url(../Block/photo-grid/photo-grid.css);
-@import url(../Block/photo-grid/__item/photo-grid__item.css);
-@import url(../Block/photo-grid/__item/photo-grid__item_position.css);
+@import url(../Block/photo-grid/Item/photo-gridItem.css);
+@import url(../Block/photo-grid/Item/photo-gridItem_position.css);
 
 
-@import url(../Block/places/__sight/places__sight.css);
-@import url(../Block/places/__sight/places__sight_a.css);
-@import url(../Block/places/__sight/places__sight_picture.css);
-@import url(../Block/places/__sight/places__sight_text.css);
-@import url(../Block/places/__sight/places__sight_title.css);
+@import url(../Block/places/Sight/placesSight.css);
+@import url(../Block/places/Sight/placesSightA.css);
+@import url(../Block/places/Sight/placesSightPicture.css);
+@import url(../Block/places/Sight/placesSightText.css);
+@import url(../Block/places/Sight/placesSightTitle.css);
 
 @import url(../Block/last/last.css);
 
 @import url(../Block/footer/footer.css);
 
-@import url(../Block/header/__button/header__button.css);
+@import url(../Block/header/Button/headerButton.css);
 
 
 

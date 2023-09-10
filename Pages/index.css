@@ -1,24 +1,24 @@
 @import url(../Block/lead/lead.css);
-@import url(../Block/lead/__image/lead__image.css);
-@import url(../Block/lead/__subtitle/lead__subtitle.css);
-@import url(../Block/lead/__title/lead__title.css);
-@import url(../Block/lead/__title/lead__title.css);
-@import url(../Block/lead/__caption/lead__caption.css);
+@import url(../Block/lead/Image/leadImage.css);
+@import url(../Block/lead/Subtitle/leadSubtitle.css);
+@import url(../Block/lead/Title/leadTitle.css);
+@import url(../Block/lead/Title/leadTitle.css);
+@import url(../Block/lead/Caption/leadCaption.css);
 @import url(../style.css);
 
 @import url(../Block/intro/intro.css);
-@import url(../Block/intro/__list-item/intro__list-item.css);
-@import url(../Block/intro/__list/intro__list.css);
-@import url(../Block/intro/__text/intro__text.css);
-@import url(../Block/intro/__title/intro__title.css);
+@import url(../Block/intro/List-item/introList-item.css);
+@import url(../Block/intro/List/introList.css);
+@import url(../Block/intro/Text/introText.css);
+@import url(../Block/intro/Title/introTitle.css);
 
 @import url(../Block/page/page.css);
 
 @import url(../Block/body/body.css);
 
 @import url(../Block/header/header.css);
-@import url(../Block/header/__lang/header__lang.css);
-@import url(../Block/header/__logo/header__logo.css);
+@import url(../Block/header/Lang/headerLang.css);
+@import url(../Block/header/Logo/headerLogo.css);
 
 @import url(../Block/header/newheader.css);
 
